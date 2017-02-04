@@ -1,9 +1,9 @@
 print("Введите числа для сравнения")
 i = 15
-print('>>')
+print(end ='>> ')
 a = input()
 while i > 1:
-    print('>>')
+    print(end ='>> ')
     b = input()
     if a < b:
         print ('True')

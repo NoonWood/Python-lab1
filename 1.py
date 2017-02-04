@@ -10,5 +10,4 @@ except Err:
     print('Некорректный формат!')
 else:
     b = int((a - int(a))*100)
-    c = int(a) 
-    print (c, "Руб.", b, "Коп.")
+    print (int(a), "Руб.", b, "Коп.")
