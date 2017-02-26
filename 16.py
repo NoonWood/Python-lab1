@@ -55,7 +55,7 @@ print ('\n')
 
 #---------------------
 a = datetime(2017, 9, 20)
-b = timedelta(days=7)
+b = timedelta(days=14)#+2 недели
 i=0
 x=0
 #print ('%s/%s/%s' % (now.month, now.day, now.year))
@@ -63,7 +63,7 @@ x=0
 #print ('%s/%s/%s' % (a.day, a.month, a.year) + '   22:45')
 #print (str(a+b))
 while a<=datetime(2018, 4, 14):# season end
-    a=a+b # + 7 days
+    a=a+b # + 14 days
     if (x<15):
         print ('%s/%s/%s' % (a.day, a.month, a.year) + '   22:45  ' + str(TeamList[i]) +'  &  '+ str(TeamList[x+1] ) )
         i=i+1
